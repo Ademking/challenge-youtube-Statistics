@@ -13,7 +13,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 function get_data($id) {
 
-    $API_KEY = "AIzaSyDLNCqoMe9MnZRemfn7in3euNAWs7ygcg8";
+    $API_KEY = "YOUR_GOOGLE_API_KEY_HERE!!!!!!!!!!!!!!!!";
     $client = new Google_Client();
     $client->setDeveloperKey($API_KEY);
     
