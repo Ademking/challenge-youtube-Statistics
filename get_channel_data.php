@@ -9,7 +9,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 function get_data_channel($id_channel) {
 
-    $API_KEY = "AIzaSyDLNCqoMe9MnZRemfn7in3euNAWs7ygcg8";
+    $API_KEY = "YOUR_GOOGLE_API_KEY_HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
     $client2 = new Google_Client();
     $client2->setDeveloperKey($API_KEY);
     
